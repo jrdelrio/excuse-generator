@@ -19,11 +19,3 @@ window.onload = function() {
   const excusa = document.querySelector("#js-excuse");
   excusa.innerHTML = `${who} ${action} ${what} ${when}.`;
 };
-
-function iterador(a1, a2, a3, a4) {
-  let excusa = "";
-  let listas = [a1, a2, a3, a4];
-  for (let lista of listas) {
-    excusa += lista[Math.floor(Math.random() * lista.length)];
-  }
-}
